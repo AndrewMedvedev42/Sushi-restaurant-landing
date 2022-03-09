@@ -1,0 +1,10 @@
+{
+    "products":[
+        {"image":"", "title":"A", "price":"$", "rating":"*"},
+        {"image":"", "title":"A", "price":"$", "rating":"*"},
+        {"image":"", "title":"A", "price":"$", "rating":"*"},
+        {"image":"", "title":"A", "price":"$", "rating":"*"},
+        {"image":"", "title":"A", "price":"$", "rating":"*"},
+        {"image":"", "title":"A", "price":"$", "rating":"*"}
+    ]
+}
