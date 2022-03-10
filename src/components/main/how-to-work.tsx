@@ -2,12 +2,12 @@ import React from 'react';
 
 export const HowToWorkSection:React.FC = () => {
     return (
-        <section>
-            <section>
+        <section className="section">
+            <section className="content_section">
                 <article>
-                    <h5>How to work</h5>
-                    <h1>Food Is An Important Part Of A Balanced Diet.</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <h5 className="sub_title">How to work</h5>
+                    <h1 className="section_title">Food Is An Important Part Of A Balanced Diet.</h1>
+                    <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna 
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -17,7 +17,7 @@ export const HowToWorkSection:React.FC = () => {
                     deserunt mollit anim id est laborum.</p>
                 </article>
                 <section>
-                    <button>Learm More</button>
+                    <button className="round_text_button">Learm More</button>
                 </section>
             </section>
         </section>

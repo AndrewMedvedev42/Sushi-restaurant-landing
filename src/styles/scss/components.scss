@@ -1,0 +1,46 @@
+.paragraph{
+    color: #888888;
+    font-size: 16px;
+}
+
+.sub_title{
+    font-size: 14px;
+    color: #F16214;
+}
+
+.section_title{
+    font-size: 40px;
+    line-height: 49px;
+}
+
+button{
+    border:none;
+    background-color: #F16214;
+}
+
+.round_text_button{
+    padding: 13px 19px;
+    border-radius: 50px;
+}
+
+.content_box{
+    padding: 60px 20px;
+    border-radius: 60px 0px;
+}
+
+.content_box_shadow{
+    box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.1);
+}
+
+.content_box_black{
+    background-color: rgb(255, 255, 185);
+}
+
+.section{
+    border: purple 5px solid;
+    .content_section{
+        padding:97px 0px 100px;
+        margin: 0 auto;
+        width: 60%;
+    }
+}
