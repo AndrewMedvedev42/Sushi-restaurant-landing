@@ -4,7 +4,7 @@ export const Home:React.FC = () => {
     return (
         <section className="section">
             <section className="content_section">
-                <article>
+                <header className="section_header">
                     <h1>You Can Eat Any Tasty Food You Like.</h1>
                     <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -16,7 +16,7 @@ export const Home:React.FC = () => {
                         <a href="#">Twitter</a>
                         <a href="#">Linkedin</a>
                     </div>
-                </article>
+                </header>
 
                 <article className="content_box content_box_shadow">
                     <article>

@@ -11,10 +11,10 @@ export const Services:React.FC = () => {
     return (
         <section className="section">
             <section className="content_section">
-                <article>
+                <header className="section_header">
                     <h5 className="sub_title">Services</h5>
                     <h1 className="section_title">Why Choose Our Food</h1>
-                </article>
+                </header>
                 <section>
                     {
                         servisesList.map((item, index)=>{

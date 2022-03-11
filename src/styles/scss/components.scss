@@ -1,9 +1,12 @@
 .paragraph{
     color: #888888;
+    font-weight: 400;
     font-size: 16px;
+    line-height: 150%;
 }
 
 .sub_title{
+    margin-bottom: 6px;
     font-size: 14px;
     color: #F16214;
 }
@@ -14,8 +17,24 @@
 }
 
 button{
+    transition: .5s;
+    color: white;
+    margin:45px 0;
     border:none;
     background-color: #F16214;
+}
+
+button:hover{
+    background-color: #b94b0f;
+}
+
+button:active{
+    background-color: #86370c;
+}
+
+.square_button{
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .round_text_button{
@@ -23,8 +42,11 @@ button{
     border-radius: 50px;
 }
 
+
+
 .content_box{
     padding: 60px 20px;
+    overflow: hidden;
     border-radius: 60px 0px;
 }
 
@@ -36,11 +58,15 @@ button{
     background-color: rgb(255, 255, 185);
 }
 
+.section_header{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
 .section{
-    border: purple 5px solid;
     .content_section{
         padding:97px 0px 100px;
         margin: 0 auto;
-        width: 60%;
+        width: 70%;
     }
 }

@@ -1,0 +1,31 @@
+.protucts_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     .products_list{
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         .product_item{
+             width: 270px;
+             margin:15px;
+             padding: 0;
+             .product_image{
+                 width: 100%;
+             }
+             .product_details{
+                 margin:20px;
+                 .product_title{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                 }
+                 .product_price{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                 }
+             }
+         }
+     }
+}

@@ -5,16 +5,16 @@ export const NewsSubscribe:React.FC = () => {
         <section className="section">
             <section className="content_section">
                 <article className="content_box content_box_black">
-                    <article>
+                    <header className="section_header">
                         <h2>Subcribe To Our Newsletter</h2>
                         <p className="paragraph">Email subsription is an opportunity to recevie 
                         an interting newsletter from a website. once a user
                         fills in the subscription from on a website.</p>
                         <div>
                             <input type="text" placeholder="Type your email..."/>
-                            <button>Subscribe</button>
+                            <button className="square_button">Subscribe</button>
                         </div>
-                    </article>
+                    </header>
                     <section>
                         <img src="#" alt="" />
                         <img src="#" alt="" />
