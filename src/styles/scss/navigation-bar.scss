@@ -1,0 +1,18 @@
+.navigation_bar{
+    padding-top: 42px;
+    width: 70%;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    .link_list{
+        display: flex;
+        .nav_link{
+            margin-right: 35px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+}

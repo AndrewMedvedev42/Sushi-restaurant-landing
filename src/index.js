@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import "./styles/css/index.css"
 import "./styles/css/components.css"
 import "./styles/css/products.css";
+import "./styles/css/how-to-work.css";
+import "./styles/css/navigation-bar.css"
 
 ReactDOM.render(
   <React.StrictMode>

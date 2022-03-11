@@ -1,0 +1,11 @@
+.how_to_work_image {
+  width: 50%;
+  position: absolute; }
+
+.how_to_work_section {
+  display: flex;
+  justify-content: end; }
+  .how_to_work_section .section_text {
+    width: 50%; }
+    .how_to_work_section .section_text .section_header {
+      text-align: start; }

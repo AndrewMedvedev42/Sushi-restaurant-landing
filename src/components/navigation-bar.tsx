@@ -2,15 +2,14 @@ import React from 'react';
 
 export const NavigationBar:React.FC = () => {
     return (
-        <nav>
-            <img src="." alt="logo" />
-            <ul>
-                <li>Home</li>
-                <li>How to work</li>
-                <li>Services</li>
-                <li>Products</li>
-                <li>Contacts</li>
-                <li>Register</li>
+        <nav className="navigation_bar">
+            <img className="logo" src="." alt="logo" />
+            <ul className="link_list">
+                <li className="nav_link">Home</li>
+                <li className="nav_link">How to work</li>
+                <li className="nav_link">Services</li>
+                <li className="nav_link">Products</li>
+                <li className="nav_link">Contacts</li>
             </ul>
         </nav>
     )
