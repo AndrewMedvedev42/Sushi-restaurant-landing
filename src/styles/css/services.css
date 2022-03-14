@@ -1,0 +1,17 @@
+.services_section .services {
+  display: flex; }
+  .services_section .services .service_item {
+    width: 33%;
+    margin: 15px;
+    text-align: center; }
+    .services_section .services .service_item .icon {
+      margin-bottom: 44px;
+      padding: 25px;
+      border-radius: 50px;
+      color: #F16214;
+      background-color: rgba(241, 98, 20, 0.15); }
+    .services_section .services .service_item .service_title {
+      margin-bottom: 22px;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 32px; }

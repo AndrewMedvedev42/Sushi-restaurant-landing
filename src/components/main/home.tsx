@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { AiOutlineClockCircle } from "react-icons/ai";
+import { HiLocationMarker } from "react-icons/hi";
+import { BsFillTelephoneFill } from "react-icons/bs";
+
 export const Home:React.FC = () => {
     return (
         <section className="section">
@@ -18,21 +22,21 @@ export const Home:React.FC = () => {
                     </div>
                 </header>
 
-                <article className="content_box content_box_shadow">
-                    <article>
-                        <img src="." alt="image" />
-                        <h4>Today 10:00am - 09:00pm</h4>
-                        <span>Working Time</span>
+                <article className="content_box content_box_shadow contacts_section">
+                    <article className="contact_item">
+                        <AiOutlineClockCircle size={16} className="icon"/>
+                        <h4 className="contact_title">Today 10:00am - 09:00pm</h4>
+                        <span className="paragraph">Working Time</span>
                     </article>
-                    <article>
-                        <img src="." alt="image" />
-                        <h4>Washington, D.C., DC, USA</h4>
-                        <span>Our Location</span>
+                    <article className="contact_item">
+                        <HiLocationMarker size={16} className="icon"/>
+                        <h4 className="contact_title">Washington, D.C., DC, USA</h4>
+                        <span className="paragraph">Our Location</span>
                     </article>
-                    <article>
-                        <img src="." alt="image" />
-                        <h4>+17602781253</h4>
-                        <span>Call Online</span>
+                    <article className="contact_item">
+                        <BsFillTelephoneFill size={16} className="icon"/>
+                        <h4 className="contact_title">+17602781253</h4>
+                        <span className="paragraph">Call Online</span>
                     </article>
                 </article>
             </section>

@@ -1,0 +1,16 @@
+.contacts_section {
+  display: flex; }
+  .contacts_section .contact_item {
+    width: 33%;
+    text-align: center; }
+    .contacts_section .contact_item .icon {
+      margin-bottom: 16px;
+      border-radius: 50px;
+      color: white;
+      padding: 12px;
+      background: #F16214; }
+    .contacts_section .contact_item .contact_title {
+      margin-bottom: 6px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px; }
