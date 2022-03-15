@@ -1,12 +1,22 @@
 .navigation_bar{
-    padding-top: 42px;
-    width: 70%;
+    transition: .15s;
+    padding: 21px 0;
+    width: 100%;
     z-index: 1;
     position: fixed;
-    display: flex;
     left: 50%;
     transform: translate(-50%);
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        .logo{
+            color: #F16214;
+        }
+    }
     .link_list{
+        margin-left: 20px;
         display: flex;
         .nav_link{
             margin-right: 35px;

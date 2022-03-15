@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdArrowForwardIos } from 'react-icons/md';
 
 import Products from "../../modules/products.json";
 
@@ -28,7 +29,7 @@ export const OurProducts:React.FC = () => {
                     }
                 </section>
                 <section>
-                    <button className="round_text_button">Learm More</button>
+                    <button className="round_text_button"> See More Products <MdArrowForwardIos className="redirect_arrow"/></button>
                 </section>
             </section>
         </section>

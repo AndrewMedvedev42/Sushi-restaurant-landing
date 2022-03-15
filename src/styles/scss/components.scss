@@ -6,6 +6,26 @@
     line-height: 150%;
 }
 
+.navigation_bar_active{
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.redirect_arrow{
+    margin-left: 16px;
+    color: #F16214;
+    padding: 14px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.big_title{
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 91px;
+    margin-bottom: 15px;
+}
+
 .sub_title{
     margin-bottom: 6px;
     font-size: 14px;
@@ -20,6 +40,9 @@
 }
 
 button{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
     transition: .5s;
     color: white;
     margin:45px 0;
@@ -41,7 +64,7 @@ button:active{
 }
 
 .round_text_button{
-    padding: 13px 19px;
+    padding: 5px 5px 5px 19px;
     border-radius: 50px;
 }
 
@@ -72,4 +95,24 @@ button:active{
         margin: 0 auto;
         width: 70%;
     }
+}
+
+.home_section{
+    width: 50%;
+    text-align: start;
+    .social_media_links{
+        .icon{
+            margin-left: 23px;
+            padding: 14px;
+            border-radius: 15px;
+            color: #F16214;
+            background-color: rgba(241, 98, 20, 0.15);
+        }
+    }
+}
+
+.home_image{
+    width: 70%;
+    left: 432px;
+    position: absolute;
 }
