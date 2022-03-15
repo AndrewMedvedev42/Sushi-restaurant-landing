@@ -58,7 +58,7 @@ button:active {
   border-radius: 50px; }
 
 .content_box {
-  padding: 60px 20px;
+  padding: 60px 20px 60px;
   overflow: hidden;
   border-radius: 60px 0px; }
 
@@ -80,14 +80,45 @@ button:active {
 .home_section {
   width: 50%;
   text-align: start; }
-  .home_section .social_media_links .icon {
-    margin-left: 23px;
-    padding: 14px;
-    border-radius: 15px;
-    color: #F16214;
-    background-color: rgba(241, 98, 20, 0.15); }
+
+.social_media_links .icon {
+  margin-right: 23px;
+  padding: 14px;
+  border-radius: 15px;
+  color: #F16214;
+  background-color: rgba(241, 98, 20, 0.15); }
 
 .home_image {
   width: 70%;
   left: 432px;
   position: absolute; }
+
+.footer {
+  background-color: #F5F5F5; }
+  .footer .content_section {
+    padding: 100px 0 20px; }
+    .footer .content_section .main_details {
+      border-bottom: #DDDDDD 2.5px solid;
+      padding-bottom: 61px;
+      margin-bottom: 23px;
+      display: flex;
+      justify-content: space-between; }
+      .footer .content_section .main_details .colunm {
+        width: 300px;
+        display: flex;
+        flex-direction: column; }
+        .footer .content_section .main_details .colunm h4 {
+          margin-bottom: 36px;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 150%; }
+        .footer .content_section .main_details .colunm ul li {
+          color: #888888;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 200%; }
+    .footer .content_section .year {
+      text-align: center; }
+
+.footer_logo {
+  margin-bottom: 34px; }

@@ -57,6 +57,7 @@ table {
     .news_sebscribe_section .content_box .section_header .section_title {
       color: white; }
     .news_sebscribe_section .content_box .section_header .input_section {
+      display: flex;
       padding: 5px;
       border-radius: 13px;
       background: white; }
