@@ -7,8 +7,8 @@ export const Footer:React.FC = () => {
         <footer className="section footer">
             <section className="content_section">
                 <section className="main_details">
-                    <article className="colunm">
-                        <img className="footer_logo" src="." alt="image" />
+                    <article className="colunm main_colunm">
+                        <img className="footer_logo" src={`${process.env.PUBLIC_URL}/logo.png`} alt="" />
                         <p className="paragraph">Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt.</p>

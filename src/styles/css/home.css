@@ -14,3 +14,13 @@
       font-weight: 700;
       font-size: 16px;
       line-height: 19px; }
+
+.home_section {
+  width: 50%;
+  text-align: start; }
+
+.home_image {
+  width: 50%;
+  top: -25px;
+  left: 736px;
+  position: absolute; }

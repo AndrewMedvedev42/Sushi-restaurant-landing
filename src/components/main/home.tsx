@@ -9,7 +9,7 @@ import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 export const Home:React.FC = () => {
     return (
         <section className="section">
-            <img className="home_image" src={`${process.env.PUBLIC_URL}/sushi-makizushi-japanese-cuisine-sashimi-onigiri-sushi-9e6bcd6afcf9adcea480cf8dc19d8fee.png`} alt="" />
+            <img className="home_image" src={`${process.env.PUBLIC_URL}/sushi-makizushi.png`} alt="" />
             <section className="content_section">
                 <header className="section_header home_section">
                     <h1 className="big_title">You Can Eat Any Tasty Food You Like.</h1>

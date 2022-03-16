@@ -1,5 +1,4 @@
 import React from 'react';
-import { GiKnifeFork } from "react-icons/gi";
 
 export const NavigationBar:React.FC = () => {
     const [navbar, setNavbar] = React.useState(false)
@@ -21,7 +20,7 @@ export const NavigationBar:React.FC = () => {
     return (
         <nav className={navbar ? "navigation_bar navigation_bar_active" : "navigation_bar"}>
             <section>
-                <GiKnifeFork className="logo" size={30}/>
+                <img className="logo" src={`${process.env.PUBLIC_URL}/logo.png`} alt="" />
                 <ul className="link_list">
                     <li className="nav_link">Home</li>
                     <li className="nav_link">How to work</li>

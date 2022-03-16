@@ -9,6 +9,7 @@ import "./styles/css/how-to-work.css";
 import "./styles/css/navigation-bar.css"
 import "./styles/css/services.css"
 import "./styles/css/home.css"
+import "./styles/css/footer.css";
 
 ReactDOM.render(
   <React.StrictMode>

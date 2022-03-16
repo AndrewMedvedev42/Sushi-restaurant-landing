@@ -97,11 +97,6 @@ button:active{
     }
 }
 
-.home_section{
-    width: 50%;
-    text-align: start;
-}
-
 .social_media_links{
     .icon{
         margin-right: 23px;
@@ -110,51 +105,4 @@ button:active{
         color: #F16214;
         background-color: rgba(241, 98, 20, 0.15);
     }
-}
-
-.home_image{
-    width: 70%;
-    left: 432px;
-    position: absolute;
-}
-
-.footer{
-    background-color: #F5F5F5;;
-    .content_section{
-        padding: 100px 0 20px;
-        .main_details{
-            border-bottom: #DDDDDD 2.5px solid;
-            padding-bottom: 61px;
-            margin-bottom: 23px;
-            display: flex;
-            justify-content: space-between;
-            .colunm{
-                width: 300px;
-                display: flex;
-                flex-direction: column;
-                h4{
-                    margin-bottom: 36px;
-                    font-weight: 700;
-                    font-size: 22px;
-                    line-height: 150%;
-                }
-                ul{
-                    li{
-                        color: #888888;
-                        font-weight: 400;
-                        font-size: 16px;
-                        line-height: 200%;
-                    }
-                }
-
-            }
-        }
-        .year{
-            text-align: center;
-        }
-    }
-}
-
-.footer_logo{
-    margin-bottom: 34px;
 }
