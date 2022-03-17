@@ -20,7 +20,7 @@ export const NavigationBar:React.FC = () => {
     return (
         <nav className={navbar ? "navigation_bar navigation_bar_active" : "navigation_bar"}>
             <section>
-                <img className="logo" src={`${process.env.PUBLIC_URL}/logo.png`} alt="" />
+                <img className="logo" src={`${process.env.PUBLIC_URL}/logo.svg`} alt="" />
                 <ul className="link_list">
                     <li className="nav_link">Home</li>
                     <li className="nav_link">How to work</li>

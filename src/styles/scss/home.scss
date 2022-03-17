@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 .contacts_section{
     display: flex;
     .contact_item{
@@ -8,7 +10,7 @@
             border-radius: 50px;
             color: white;
             padding: 12px;
-            background: #F16214;
+            background: $main-color;
         }
         .contact_title{
             margin-bottom: 6px;

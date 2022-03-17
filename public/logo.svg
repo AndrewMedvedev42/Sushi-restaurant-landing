@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="267mm"
+   height="72mm"
+   viewBox="0 0 267 72"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.30543394"
+     inkscape:cx="540.21501"
+     inkscape:cy="80.213744"
+     inkscape:window-width="1312"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;line-height:1.25;font-family:Papyrus;-inkscape-font-specification:Papyrus;stroke-width:0.264583"
+       x="80.519829"
+       y="53.786572"
+       id="text1640"><tspan
+         sodipodi:role="line"
+         id="tspan1638"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Papyrus;-inkscape-font-specification:Papyrus;stroke-width:0.264583"
+         x="80.519829"
+         y="53.786572">Sushisei</tspan></text>
+    <circle
+       style="fill:#000000;stroke-width:0.264583"
+       id="path2822"
+       cx="35.894489"
+       cy="35.761837"
+       r="35" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.226785"
+       id="path2822-4"
+       cx="35.894489"
+       cy="35.761837"
+       r="30" />
+    <g
+       id="g18130"
+       transform="matrix(0.87499979,0,0,0.875,-6.0794856,-86.772341)">
+      <rect
+         style="fill:#66ff00;fill-opacity:1;stroke-width:0.132291"
+         id="rect2968-1"
+         width="20"
+         height="20"
+         x="27.970266"
+         y="120.03906" />
+      <rect
+         style="fill:#aade87;fill-opacity:1;stroke-width:0.132291"
+         id="rect2968-1-2"
+         width="20"
+         height="20"
+         x="47.970268"
+         y="120.03906" />
+      <rect
+         style="fill:#ff7f2a;fill-opacity:1;stroke-width:0.132291"
+         id="rect2968-1-2-5"
+         width="20"
+         height="20"
+         x="27.970266"
+         y="140.03906" />
+      <rect
+         style="fill:#d35f5f;fill-opacity:1;stroke-width:0.132291"
+         id="rect2968-1-2-2"
+         width="20"
+         height="20"
+         x="47.970276"
+         y="140.03906" />
+    </g>
+  </g>
+</svg>

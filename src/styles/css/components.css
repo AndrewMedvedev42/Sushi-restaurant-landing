@@ -7,11 +7,11 @@
 
 .navigation_bar_active {
   background-color: white;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 0 5px rgba(134, 173, 107, 0.15); }
 
 .redirect_arrow {
   margin-left: 16px;
-  color: #F16214;
+  color: #86ad6b;
   padding: 14px;
   background-color: white;
   border-radius: 50px; }
@@ -25,7 +25,7 @@
 .sub_title {
   margin-bottom: 6px;
   font-size: 14px;
-  color: #F16214; }
+  color: #86ad6b; }
 
 .section_title {
   margin-bottom: 30px;
@@ -41,7 +41,7 @@ button {
   color: white;
   margin: 45px 0;
   border: none;
-  background-color: #F16214; }
+  background-color: #86ad6b; }
 
 button:hover {
   background-color: #b94b0f; }
@@ -81,5 +81,5 @@ button:active {
   margin-right: 23px;
   padding: 14px;
   border-radius: 15px;
-  color: #F16214;
-  background-color: rgba(241, 98, 20, 0.15); }
+  color: #86ad6b;
+  background-color: rgba(134, 173, 107, 0.15); }

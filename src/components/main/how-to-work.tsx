@@ -4,7 +4,7 @@ import { MdArrowForwardIos } from 'react-icons/md';
 export const HowToWorkSection:React.FC = () => {
     return (
         <section className="section">
-            <img className="how_to_work_image" src={`${process.env.PUBLIC_URL}/sushi-sashimi.png`} alt="" />
+            <img className="how_to_work_image" src={`${process.env.PUBLIC_URL}/sushi-sashimi.svg`} alt="" />
             <section className="content_section how_to_work_section">
                 <article className="section_text">
                     <header className="section_header">
