@@ -1,10 +1,11 @@
 import React from 'react';
+import { SocialMediaLinks } from "../social-media-links";
+import { RedirectButton } from "../redirect-button";
 
-import { MdArrowForwardIos } from 'react-icons/md';
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { HiLocationMarker } from "react-icons/hi";
-import { BsFillTelephoneFill, BsInstagram, BsTwitter } from "react-icons/bs";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { BsFillTelephoneFill} from "react-icons/bs";
+
 
 export const Home:React.FC = () => {
     return (
@@ -16,13 +17,8 @@ export const Home:React.FC = () => {
                     <p className="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                    <button className="round_text_button"> Get Started <MdArrowForwardIos className="redirect_arrow"/></button>
-                    <div className="social_media_links">
-                        <FaFacebookF size={13} className="icon"/>
-                        <BsInstagram size={13} className="icon"/>
-                        <BsTwitter size={13} className="icon"/>
-                        <FaLinkedinIn size={13} className="icon"/>
-                    </div>
+                    <RedirectButton text="Get started"/>
+                    <SocialMediaLinks/>
                 </header>
 
                 <article className="content_box content_box_shadow contacts_section">

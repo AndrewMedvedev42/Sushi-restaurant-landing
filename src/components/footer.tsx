@@ -1,6 +1,5 @@
 import React from 'react';
-import { BsInstagram, BsTwitter } from "react-icons/bs";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { SocialMediaLinks } from "./social-media-links";
 
 export const Footer:React.FC = () => {
 
@@ -19,12 +18,7 @@ export const Footer:React.FC = () => {
                         <p className="paragraph">Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt.</p>
-                        <div className="social_media_links">
-                            <FaFacebookF size={13} className="icon"/>
-                            <BsInstagram size={13} className="icon"/>
-                            <BsTwitter size={13} className="icon"/>
-                            <FaLinkedinIn size={13} className="icon"/>
-                        </div>
+                        <SocialMediaLinks/>
                     </article>
                     {
                         footerData.map((item, index)=>{

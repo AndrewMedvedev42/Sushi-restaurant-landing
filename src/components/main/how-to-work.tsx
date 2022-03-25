@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdArrowForwardIos } from 'react-icons/md';
+import { RedirectButton } from "../redirect-button";
 
 export const HowToWorkSection:React.FC = () => {
     return (
@@ -20,7 +20,7 @@ export const HowToWorkSection:React.FC = () => {
                         esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
                         occaecat cupidatat non proident, sunt in culpa qui officia 
                         deserunt mollit anim id est laborum.</p>
-                        <button className="round_text_button"> Learm More <MdArrowForwardIos className="redirect_arrow"/></button>
+                        <RedirectButton text="Learm More"/>
                     </section>
                 </article>
             </section>

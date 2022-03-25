@@ -44,10 +44,10 @@ button {
   background-color: #86ad6b; }
 
 button:hover {
-  background-color: #b94b0f; }
+  background-color: #5a7447; }
 
 button:active {
-  background-color: #86370c; }
+  background-color: #3e4e32; }
 
 .square_button {
   padding: 15px;
@@ -58,7 +58,7 @@ button:active {
   border-radius: 50px; }
 
 .content_box {
-  padding: 60px 20px 60px;
+  padding: 50px 20px;
   overflow: hidden;
   border-radius: 60px 0px; }
 

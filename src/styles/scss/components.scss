@@ -53,11 +53,11 @@ button{
 }
 
 button:hover{
-    background-color: #b94b0f;
+    background-color: rgb(90, 116, 71);
 }
 
 button:active{
-    background-color: #86370c;
+    background-color: rgb(62, 78, 50);
 }
 
 .square_button{
@@ -73,7 +73,7 @@ button:active{
 
 
 .content_box{
-    padding: 60px 20px 60px;
+    padding:50px 20px;
     overflow: hidden;
     border-radius: 60px 0px;
 }

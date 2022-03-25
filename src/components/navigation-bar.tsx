@@ -5,7 +5,7 @@ export const NavigationBar:React.FC = () => {
 
     const changeBackground = () => {
         console.log(window.scrollY)
-        if (window.scrollY >= 66) {
+        if (window.scrollY >= 45) {
           setNavbar(true)
         } else {
           setNavbar(false)
@@ -13,7 +13,6 @@ export const NavigationBar:React.FC = () => {
       }
 
       React.useEffect(() => {
-        // adding the event when scroll change Logo
         window.addEventListener("scroll", changeBackground)
       })
 
@@ -21,13 +20,6 @@ export const NavigationBar:React.FC = () => {
         <nav className={navbar ? "navigation_bar navigation_bar_active" : "navigation_bar"}>
             <section>
                 <img className="logo" src={`${process.env.PUBLIC_URL}/logo.svg`} alt="" />
-                <ul className="link_list">
-                    <li className="nav_link">Home</li>
-                    <li className="nav_link">How to work</li>
-                    <li className="nav_link">Services</li>
-                    <li className="nav_link">Products</li>
-                    <li className="nav_link">Contacts</li>
-                </ul>
             </section>
         </nav>
     )
