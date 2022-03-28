@@ -1,10 +1,10 @@
 {
     "products":[
-        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$", "rating":"*"},
-        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$", "rating":"*"},
-        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$", "rating":"*"},
-        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$", "rating":"*"},
-        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$", "rating":"*"},
-        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$", "rating":"*"}
+        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$390", "rating":"4.7"},
+        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$390", "rating":"4.7"},
+        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$390", "rating":"4.7"},
+        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$390", "rating":"4.7"},
+        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$390", "rating":"4.7"},
+        {"image":"sushi-image.jpg", "title":"Sishi roll", "price":"$390", "rating":"4.7"}
     ]
 }

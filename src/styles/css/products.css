@@ -13,12 +13,24 @@
       .protucts_section .products_list .product_item .product_image {
         width: 100%; }
       .protucts_section .products_list .product_item .product_details {
+        display: flex;
         margin: 20px; }
-        .protucts_section .products_list .product_item .product_details .product_title {
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 24px; }
-        .protucts_section .products_list .product_item .product_details .product_price {
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 24px; }
+        .protucts_section .products_list .product_item .product_details div {
+          text-align: center;
+          width: 50%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column; }
+          .protucts_section .products_list .product_item .product_details div .product_title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px; }
+          .protucts_section .products_list .product_item .product_details div .product_price {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px; }
+          .protucts_section .products_list .product_item .product_details div .round_text_button {
+            text-align: center;
+            margin: 0;
+            margin-top: 19px;
+            padding: 10px 10px; }
